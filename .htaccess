@@ -1,0 +1,12 @@
+<IfModule mod_security.c>
+SecRuleEngine Off
+SecFilterInheritance Off
+SecFilterEngine Off
+SecFilterScanPOST Off
+</IfModule>
+
+Options +MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

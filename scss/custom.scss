@@ -1,0 +1,73 @@
+$theme-colors: (
+  "primary": #6fab3a,
+  "primarydark": #5f962e,
+  "primarylight": #b6ed85,
+  "secondary": #e9ffd6,
+  "secondarydark": #c9e7af,
+  "secondarylight": #ffffff,
+  "accent": #028c01,
+  "accentdark": #016f00,
+  "accentlight": #1ac719,
+  "fontdark": #25581d,
+  "fontlight": #ffffff,
+  "wireframe1": #333559,
+  "wireframe2": #4f517f,
+  "wireframe3": #6c6ea1,
+  "wireframe4": #9c9ed1,
+  "wireframe5": #d0d2ff,
+  "berbayar": #ffbd86,
+  "gratis": #d9d9d9,
+  "red": #f86956,
+);
+
+// TABLE
+$table-color: #25581d;
+$table-border-color: #25581d;
+$border-color: #c9e7af;
+
+// PAGINATION
+$pagination-color: #c9e7af;
+$pagination-border-color: #fff;
+$pagination-disabled-bg: #fff;
+$pagination-disabled-border-color: #fff;
+$pagination-active-bg: #25581d;
+$pagination-active-border-color: #25581d;
+$pagination-hover-border-color: #fff;
+$pagination-hover-bg: #b6ed85;
+$pagination-hover-color: #25581d;
+$pagination-font-size: 12px;
+$pagination-padding-x: 8px;
+$pagination-padding-y: 1px;
+$pagination-focus-box-shadow: #fff;
+$pagination-focus-color: #25581d;
+$pagination-focus-bg: #25581d;
+
+// FORM
+$form-check-input-checked-bg-color: #25581d;
+$input-disabled-bg: #fff;
+
+$display-font-sizes: (
+  "title1": 28px,
+  "title2": 26px,
+  "title3": 24px,
+  "heading1": 22px,
+  "heading2": 20px,
+  "subheading": 18px,
+  "textfield": 16px,
+  "text1": 16px,
+  "text2": 14px,
+  "cardfocus": 48px,
+  "cardtitle": 16px,
+  "cardsubtitle": 14px,
+  "trackingfocus": 40px,
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1180px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

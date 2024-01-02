@@ -1,0 +1,822 @@
+.card {
+  color: #25581d;
+  border: none;
+}
+
+/* BERANDA */
+.bcard-1 {
+  padding: 7px 17px 7px 17px;
+}
+
+.bcard-1-1 {
+  padding: 14px 17px 14px 17px;
+}
+
+.dash-num {
+  font-size: 40px;
+  text-align: center;
+}
+
+.dash-ket {
+  font-size: 12px;
+}
+
+.card-dash {
+  margin: 0px;
+  padding: 8px 0px 8px 0px;
+}
+
+@media only screen and (max-width: 422px) {
+  .card-1 {
+    margin: auto;
+  }
+
+  .dash-num {
+    width: 130px;
+    font-size: 40px;
+  }
+
+  .dash-word {
+    min-width: 100px;
+    padding-left: 4px;
+  }
+
+  .dash-imgr {
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 422px) and (max-width: 609px) {
+  .card-1 {
+    margin: auto;
+  }
+
+  .dash-num {
+    width: 130px;
+    font-size: 40px;
+  }
+
+  .dash-word {
+    width: 200px;
+    padding-left: 4px;
+  }
+
+  .dash-imgr {
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 610px) {
+  .card-dash {
+    padding-right: 8px;
+  }
+
+  .flexr-dash {
+    display: flex;
+  }
+
+  .dash-word {
+    width: 95px;
+  }
+
+  .dash-num {
+    width: 130px;
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 1015px) {
+  .dash-num {
+    width: 130px;
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 1320px) {
+  .flexr-dash2 {
+    display: flex;
+  }
+  .dash-num {
+    width: 130px;
+    font-size: 40px;
+  }
+  .img-fluid {
+    max-height: 170px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .display-cardtitle {
+    font-size: 20px;
+  }
+
+  .dash-num {
+    font-size: 44px;
+    width: 150px;
+  }
+
+  .dash-word {
+    width: 150px;
+  }
+
+  .dash-ket {
+    font-size: 16px;
+  }
+
+  .bcard-1 {
+    display: flex;
+    height: 96px;
+    align-items: center;
+  }
+
+  .bcard-1-1 {
+    display: flex;
+    height: 96px;
+    align-items: center;
+  }
+
+  .img-fluid {
+    max-height: 207px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .display-cardtitle {
+    font-size: 25px;
+  }
+
+  .dash-num {
+    font-size: 49px;
+    width: 150px;
+  }
+
+  .dash-word {
+    width: 180px;
+  }
+
+  .dash-ket {
+    font-size: 21px;
+  }
+
+  .bcard-1 {
+    display: flex;
+    height: 120px;
+    align-items: center;
+  }
+
+  .bcard-1-1 {
+    display: flex;
+    height: 120px;
+    align-items: center;
+  }
+
+  .img-fluid {
+    max-width: 970px;
+    max-height: 970px;
+  }
+
+  .dash-imgr {
+    max-width: 900px;
+    max-height: 900px;
+  }
+
+  .card-dash {
+    padding-right: 16px;
+  }
+}
+
+/* KELOLA PENGGUNA */
+.btn-user {
+  padding: 8px 16px 8px 16px;
+  font-size: 18px;
+  color: #28581d;
+  background-color: #fff;
+  border: none;
+  border-radius: 7px;
+  text-align: left;
+}
+
+.bcard-2 {
+  padding: 0px 16px 0px 16px;
+}
+
+.user-num {
+  font-size: 45px;
+  text-align: center;
+  width: 130px;
+}
+
+.user-word {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 630px) {
+  .card-2 {
+    width: 100%;
+    margin-bottom: 14px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .b-img {
+    width: 130px;
+  }
+  .btn-user {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 630px) {
+  .flexr-1 {
+    display: flex;
+  }
+  .card-2 {
+    width: 100%;
+    margin-right: 17px;
+  }
+}
+@media only screen and (min-width: 630px) and (max-width: 750px) {
+  .card-2 {
+    margin-bottom: 14px;
+  }
+  .flexr-1 {
+    display: flex;
+  }
+}
+@media only screen and (min-width: 422px) and (max-width: 580px) {
+  .card-2 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 422px) and (max-width: 850px) {
+  .card-2 {
+    margin-bottom: 14px;
+  }
+}
+@media only screen and (min-width: 850px) {
+  .card-2 {
+    margin-right: 17px;
+    width: min-content;
+  }
+  .user-word {
+    width: min-content;
+  }
+  .flexr-user {
+    display: flex;
+  }
+  .flexr-1 {
+    display: flex;
+  }
+  .b-img {
+    width: 90px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .user-word {
+    font-size: 20px;
+    width: 120px;
+  }
+  .user-num {
+    font-size: 49px;
+    width: 140px;
+  }
+  .bcard-2 {
+    height: 96px;
+    display: flex;
+    align-items: center;
+  }
+  .b-img {
+    width: 100px;
+  }
+  .btn-user {
+    height: 96px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .user-word {
+    font-size: 25px;
+    width: 150px;
+    padding-left: 4px;
+  }
+  .user-num {
+    font-size: 52px;
+    width: 150px;
+  }
+  .bcard-2 {
+    height: 120px;
+    display: flex;
+    align-items: center;
+  }
+  .b-img {
+    width: 110px;
+  }
+  .btn-user {
+    height: 120px;
+  }
+}
+
+/* END KELOLA PENGGUNA */
+
+/* KELOLA SETORAN */
+.card-setor {
+  width: min-content;
+}
+
+.bcard-setor {
+  padding: 0px 16px 0px 16px;
+}
+
+.setor-num {
+  width: 130px;
+  font-size: 48px;
+  text-align: center;
+}
+
+.setor-word {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-setor {
+    margin-bottom: 14px;
+    width: 100%;
+  }
+
+  .setor-word {
+    width: max-content;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .card-setor {
+    margin-right: 15px;
+    width: 260px;
+  }
+
+  .setor-word {
+    width: min-content;
+  }
+
+  .flexr-setor {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .setor-word {
+    font-size: 20px;
+    width: 100px;
+  }
+
+  .bcard-setor {
+    padding: 8px;
+  }
+
+  .setor-num {
+    font-size: 49px;
+    width: 140px;
+  }
+
+  .card-setor {
+    width: 300px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .setor-word {
+    font-size: 25px;
+    width: 140px;
+    padding-left: 4px;
+  }
+
+  .setor-num {
+    font-size: 52px;
+    width: 150px;
+  }
+
+  .card-setor {
+    width: 340px;
+    height: 120px;
+  }
+
+  .bcard-setor {
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* END KELOLA SETORAN */
+
+.bcard-3 {
+  padding: 13px 30px 13px 30px;
+}
+
+/* TRACKING */
+.btn-track {
+  padding: 12px 30px;
+  font-size: 18px;
+  color: #25581d;
+  background-color: #fff;
+  border: none;
+  border-radius: 7px;
+}
+
+.track-num {
+  padding-right: 15px;
+  text-align: right;
+}
+
+.track-word {
+  padding-right: 20px;
+}
+
+.card-4 {
+  border-radius: 12px;
+  width: min-content;
+}
+
+.bcard-4 {
+  padding: 30px 40px 30px 40px;
+  background-color: #25581d;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.gap-track {
+  padding-left: 30px;
+}
+
+.order-track {
+  display: flex;
+  align-item: center;
+}
+
+@media only screen and (max-width: 425px) {
+  .order-track {
+    display: inline;
+  }
+
+  .track-num {
+    width: 70px;
+  }
+
+  .btn-track {
+    font-size: 17px;
+  }
+
+  .fontr {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .fontr-2 {
+    font-size: 24px;
+  }
+
+  .fontr-3 {
+    font-size: 18px;
+  }
+
+  .gap-track {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .flexr {
+    display: flex;
+  }
+
+  .card-4 {
+    width: min-content;
+  }
+
+  .bcard-4 {
+    padding: 30px 10px 30px 10px;
+    border-radius: 12px;
+    width: min-content;
+  }
+
+  .imgr {
+    height: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 700px) {
+  .order-track {
+    display: inline;
+  }
+
+  .track-num {
+    width: 70px;
+  }
+
+  .btn-track {
+    font-size: 17px;
+  }
+
+  .fontr {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .fontr-2 {
+    font-size: 24px;
+  }
+
+  .fontr-3 {
+    font-size: 18px;
+  }
+
+  .gap-track {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .flexr {
+    display: flex;
+  }
+
+  .card-4 {
+    width: min-content;
+  }
+
+  .bcard-4 {
+    padding: 30px 25px 30px 25px;
+    border-radius: 12px;
+    width: min-content;
+  }
+
+  .imgr {
+    height: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 701px) {
+  .track-num {
+    width: 100px;
+  }
+
+  .btn-track {
+    font-size: 17px;
+  }
+
+  .fontr {
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+
+  .fontr-2 {
+    font-size: 28px;
+  }
+
+  .fontr-3 {
+    font-size: 22px;
+  }
+
+  .gap-track {
+    padding-left: 25px;
+  }
+
+  .bcard-4 {
+    padding: 30px 30px 30px 30px;
+    border-radius: 12px;
+  }
+
+  .flexr {
+    display: flex;
+    padding-bottom: 10px;
+  }
+
+  .imgr {
+    height: 145px;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .card-4 {
+    width: 100%;
+  }
+
+  .btn-track {
+    font-size: 18px;
+  }
+
+  .fontr {
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+
+  .fontr-2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .fontr-3 {
+    font-size: 22px;
+  }
+
+  .font-ton {
+    width: 120px;
+  }
+
+  .font-kg {
+    width: 90px;
+  }
+
+  .font-ons {
+    width: 45px;
+  }
+
+  .font-gr {
+    width: 70px;
+  }
+
+  .gap-track {
+    padding-left: 30px;
+  }
+
+  .bcard-4 {
+    padding: 30px 30px 30px 30px;
+    border-radius: 12px;
+  }
+
+  .flexr-2 {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .btn-track {
+    font-size: 18px;
+  }
+
+  .card-4 {
+    width: 100%;
+  }
+
+  .imgr {
+    height: 150px;
+  }
+
+  .fontr {
+    font-size: 26px;
+    padding-bottom: 10px;
+  }
+
+  .fontr-2 {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .fontr-3 {
+    font-size: 26px;
+  }
+
+  .font-ton {
+    width: 140px;
+  }
+
+  .font-kg {
+    width: 120px;
+  }
+
+  .font-ons {
+    width: 45px;
+  }
+
+  .font-gr {
+    width: 80px;
+  }
+
+  .gap-track {
+    padding-left: 30px;
+  }
+
+  .b-4-4 {
+    padding: 30px 30px 30px 30px;
+    border-radius: 12px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .btn-track {
+    font-size: 25px;
+  }
+
+  .card-4 {
+    width: 100%;
+  }
+
+  .imgr {
+    height: 180px;
+  }
+
+  .fontr {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+
+  .fontr-2 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .fontr-3 {
+    font-size: 30px;
+  }
+
+  .font-ton {
+    width: 155px;
+  }
+
+  .font-kg {
+    width: 120px;
+  }
+
+  .font-ons {
+    width: 45px;
+  }
+
+  .font-gr {
+    width: 80px;
+  }
+
+  .gap-track {
+    padding-left: 50px;
+  }
+
+  .bcard-4 {
+    padding: 30px 30px 30px 30px;
+    border-radius: 12px;
+  }
+
+  .track-word {
+    padding-right: 40px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .btn-track {
+    font-size: 30px;
+  }
+
+  .card-4 {
+    width: 100%;
+  }
+
+  .imgr {
+    height: 190px;
+  }
+
+  .fontr {
+    font-size: 35px;
+    padding-bottom: 10px;
+  }
+
+  .fontr-2 {
+    font-size: 62px;
+    text-align: center;
+  }
+
+  .fontr-3 {
+    font-size: 35px;
+  }
+
+  .font-ton {
+    width: 175px;
+  }
+
+  .font-kg {
+    width: 140px;
+  }
+
+  .font-ons {
+    width: 45px;
+  }
+
+  .font-gr {
+    width: 95px;
+  }
+
+  .gap-track {
+    padding-left: 50px;
+  }
+
+  .bcard-4 {
+    padding: 45px;
+    border-radius: 12px;
+  }
+
+  .track-word {
+    padding-right: 40px;
+  }
+}
+
+/* END TRACKING */
